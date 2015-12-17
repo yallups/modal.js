@@ -42,7 +42,6 @@ module.exports = modal
  */
 
 var Emitter = require('events').EventEmitter
-  , $ = $ || require('jquery')
   , template = require('./modal-template')
 
   , defaults =
